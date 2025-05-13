@@ -1,8 +1,11 @@
 import datetime
 from uuid import uuid4
+from models.curso import Curso
 
 class Aluno:
+
 # ATRIBUTOS
+
     def __init__(self, nome, nascimento):
         self.nome = nome
         self.nascimento = nascimento
@@ -10,7 +13,9 @@ class Aluno:
         self.ingresso = datetime.timezone
         self.curso = None
         self.notas = []
+
 # COMPORTAMETNOS
+
     def marcar_prova(self, data_prova, nome_prova):
         provas = {}
         prova = provas.get(nome_prova)
