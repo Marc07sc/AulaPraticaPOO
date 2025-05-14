@@ -69,3 +69,16 @@ def deletar_aluno(matricula):
     ALUNOS.pop(matricula)
 
     return "Aluno excluído com sucesso."
+
+def cadastrar_curso(nome, duracao, professor, materias):
+    curso.nome
+    pass
+
+def listar_curso():
+    pass
+
+def detalhar_curso():
+    pass
+
+def deletar_curso():
+    pass

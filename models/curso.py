@@ -1,4 +1,7 @@
 class Curso:
+
+# ATRIBUTOS
+
     def __init__(self, nome, duracao, professor, materias):
         self.nome = nome
         self.alunos = {}
@@ -6,6 +9,8 @@ class Curso:
         self.professor = professor
         self.materias = materias
         self.aulas = []
+
+# COMPORTAMENTOS
 
     def contabilizar_presenca(self):
         pass
